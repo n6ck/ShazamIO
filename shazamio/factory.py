@@ -4,7 +4,7 @@ from dataclass_factory import Schema
 class FactorySchemas:
     FACTORY_TRACK_SCHEMA = Schema(
         name_mapping={
-            "photo_url": ("images", "coverarthq"),
+            "photo_url": ("images", "coverart"),
             "ringtone": ("hub", "actions", 1, "uri"),
             "artist_id": ("artists", 0, "id"),
             "apple_music_url": ("hub", "options", 0, "actions", 0, "uri"),
