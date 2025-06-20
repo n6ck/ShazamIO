@@ -5,11 +5,9 @@ chardet
 dataclass-factory
 idna
 multidict
-numpy
 pydub
 typing-extensions
 yarl
-
 pytest
 setuptools
 pytest-asyncio~
